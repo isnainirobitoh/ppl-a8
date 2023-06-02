@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color: #0b0a0a;
+    --nav-color: #b8d3c2;
+}
+
+#header h1{
+	color: rgb(22, 29, 50);
+	font-family: 'Poppins' sans-serif;
+    font-weight: bold;
+	text-align: center;
+    text-shadow: 2px 2px 5px rgb(252, 252, 252);
+}
+
+body{
+    background: linear-gradient(115deg, #b39c71 10%, #59a984 90%); 
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    padding: 3vh 3vw;
+    text-align: left;
+    width: 20vw;
+    cursor: pointer;
+    align-items: center;
+}
+
+.logo i{
+   color:var(--text-color);
+   font-size: 28px;
+   margin-right: 3px;
+}
+
+.logo span{
+    color:var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menu-icon{
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar a:hover{
+    color:#fff;
+} 
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+#header{
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+#header:after, #header:before{
+	display: table;
+	content: "";
+}
+
+#header:after{
+	clear: both;
+}
+
+form{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+fieldset{
+	border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+.form-grup{
+	margin-bottom: 20px;
+	margin-right: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.form-grup:after, .form-group:before{
+	display: table;
+	content: "";
+}
+
+.form-grup:after{
+	clear: both;
+}
+
+.label{
+	float: left;
+	width: 30%;
+	border: 0;
+	font-weight: 900;
+    color: #14161a;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label label{
+	display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.input{
+	float: left;
+	width: 50%;
+	border: 0;
+}
+
+input[type=number],  textarea{
+    border: 2px solid #6f6f6f;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    font-family: '', sans-serif;
+    background-color: #f1f3ee;
+    color: #131313;
+}
+
+input[type=number]:focus, textarea:focus{
+    border:2px solid #87bed8;
+}
+
+button.btn{
+    background-color: #405f43; color: rgb(242, 235, 235); /*warna button dan teks*/
+    border: none;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px; /*lebar & panjang button*/
+    border-radius: 8px; /*courner button*/
+    transition-duration: 0.4s; /*durasi transisi*/
+    cursor: pointer;
+    float: right;
+}
+button.btn:hover {
+    background-color: #c7a644; /*efek warna button jika disentuh*/
+    color: rgb(23, 23, 23); /*warna teks berubah putih*/
+}
+
+
+
+
+

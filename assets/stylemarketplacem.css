@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg-color: #72a088;
+    --text-color: #0b0a0a;
+    --main-color: #edf3ee;
+    --title-color: #E1D5B8;
+    --nav-color: #acd8ba;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.logo{
+    display: flex;
+    padding: 3vh 3vw;
+    text-align: left;
+    width: 20vw;
+    cursor: pointer;
+    align-items: center;
+}
+.logo i{
+   color:var(--text-color);
+   font-size: 28px;
+   margin-right: 3px;
+}
+.logo span{
+    color:var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.menu-icon{
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.navbar a:hover{
+    color:var(--main-color);
+} 
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.container .top {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.container .top h1 {
+    text-align: center;
+    color: white;
+}
+.container .top button {
+    background-color: #f5f4ef; color: black; 
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px; /*lebar & panjang button*/
+    border-radius: 8px; /*courner button*/
+    transition-duration: 0.4s; /*durasi transisi*/
+    cursor: pointer;
+    text-decoration: none;
+    display: list-item;
+    margin-bottom: 10px;
+    width:180px;
+}
+.container .top button:hover {
+    background-color: #ecd27b;
+    color: rgb(11, 10, 10);
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col{
+    flex-basis: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.left h1{
+    font-size: 15px;
+    width:200px;
+    background-color: #ecd27b;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.right h1{
+    font-size: 15px;
+    width:200px;
+    background-color: #ecd27b;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.left .isi {
+    width: 50%;
+    margin-top: 20px;
+    border:#0b0a0a solid 1px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.left .isi img{
+    width:100%;
+    height: 220px;
+}
+.right .isi {
+    width: 50%;
+    margin-top: 20px;
+    border:#0b0a0a solid 1px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.right .isi img{
+    width:100%;
+    height: 220px;
+}
+.isi p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.isi button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    font-style: italic;
+}
+.isi .judul{
+    font-size: 15px;
+    text-decoration: solid;
+}
+.isi .desc{
+    font-size: 12px;
+    font-style: italic;
+}
+.isi .harga{
+    display: flex;
+    background-color: rgb(208, 206, 206);
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.container .bottom button {
+    background-color: #f5f4ef; color: black; 
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px; /*lebar & panjang button*/
+    border-radius: 8px; /*courner button*/
+    transition-duration: 0.4s; /*durasi transisi*/
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width:180px;
+}
+.container .bottom button:hover {
+    background-color: #ecd27b;
+    color: rgb(11, 10, 10);
+}

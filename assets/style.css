@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+#header h1{
+	color: rgb(22, 29, 50);
+	font-family: 'Poppins' sans-serif;
+    font-weight: bold;
+	text-align: center;
+    text-shadow: 2px 2px 5px rgb(246, 250, 251);
+}
+
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#header{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#header:after, #header:before{
+	display: table;
+	content: "";
+}
+
+#header:after{
+	clear: both;
+}
+
+body{
+    background: linear-gradient(115deg, #3b805c 10%, #5472ad 90%); 
+    height: 100vh;
+    width: 100%;
+}
+
+fieldset{
+	border: 3px solid #f9f7f7;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.form-grup{
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.form-grup:after, .form-group:before{
+	display: table;
+	content: "";
+}
+
+.form-grup:after{
+	clear: both;
+}
+
+.label{
+	float: left;
+	width: 30%;
+	border: 0;
+	font-weight: 900;
+    color: #14161a;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label label{
+	display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.input{
+	float: left;
+	width: 70%;
+	border: 0;
+}
+
+input[type=text], input[type=date], input[type=email], input[type=password], input[type=file], textarea{
+    border: 2px solid #bfbbbb;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 11px;
+    background-color: #d9f1c2;
+    color: #131313;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus,textarea:focus{
+    border:2px solid #87bed8;
+}
+
+button{
+    background-color: #ecd27b; color: black; /*warna button dan teks*/
+    border: none;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px; /*lebar & panjang button*/
+    border-radius: 8px; /*courner button*/
+    transition-duration: 0.4s; /*durasi transisi*/
+    cursor: pointer;
+    float: right;
+}
+button:hover {
+    background-color: #527454; /*efek warna button jika disentuh*/
+    color: white; /*warna teks berubah putih*/
+}
+
+.clickme {
+    background-color: #82c4ad;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 10px;
+}
+.clickme:hover {
+    background-color: #c9b388;
+    color: rgb(23, 22, 22);
+}
+
+
+

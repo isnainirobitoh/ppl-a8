@@ -1,0 +1,55 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 250px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content p{
+    font-size: 10px;
+}
+
+.dropdown-content p a{
+    text-decoration: underline;
+}
+.dropdown-content p a:hover{
+    color: brown;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notif {
+    border: none;
+    background-color: transparent;
+}
+
+.ri-notification-3-fill {
+    border: none;
+    background-color: transparent;
+}
