@@ -124,16 +124,16 @@ p{
 
 }
 .card1{
-    background-image: url(images/pic-5.jpg);
+    background-image: url(../images/pic-5.jpg);
 }
 .card2{
-    background-image: url(images/pic-2.jpg);
+    background-image: url(../images/pic-2.jpg);
 }
 .card3{
-    background-image: url(images/pic-3.jpg);
+    background-image: url(../images/pic-3.jpg);
 }
 .card4{
-    background-image: url(images/pic-4.jpg);
+    background-image: url(../images/pic-4.jpg);
 }
 
 .card:hover{

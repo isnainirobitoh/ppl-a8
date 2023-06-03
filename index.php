@@ -12,7 +12,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
     <title>HELLO</title>
-    <link rel="stylesheet" type="text/css" href="stylestart.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylestart.css">
     
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 

@@ -145,11 +145,11 @@ button{
 }
 
 .card1{
-    background-image: url(images/user-1.jpg);
+    background-image: url(../images/user-1.jpg);
 }
 
 .card2{
-    background-image: url(images/user-2.jpg);
+    background-image: url(../images/user-2.jpg);
 }
 
 .card:hover{

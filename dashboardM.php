@@ -17,7 +17,7 @@ if( !isset($_SESSION["login"]) ) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
     <title>DASHBOARD</title>
-    <link rel="stylesheet" href="styledashboard.css">
+    <link rel="stylesheet" href="assets/styledashboard.css">
     
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
